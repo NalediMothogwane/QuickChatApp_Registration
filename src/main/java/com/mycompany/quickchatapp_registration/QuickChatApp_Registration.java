@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author NALEDI
  */
-public class QuickChatApp_Registration { 
+public class QuickChatApp_Registration {
     // Store user details
     String storedUsername;
     String storedPassword;
@@ -21,7 +21,7 @@ public class QuickChatApp_Registration {
     Scanner input = new Scanner(System.in);
 
     // Check username
-    public boolean checkUserName(String username) {
+    public boolean checkUserName(String username) { 
         if (username.contains("_") && username.length() <= 5) {
             System.out.println("Username looks good.");
             return true;
