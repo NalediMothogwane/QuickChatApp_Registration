@@ -32,7 +32,7 @@ public class QuickChatApp_Registration {
     }
 
     // Check password
-    public boolean checkPasswordComplexity(String password) { 
+    public boolean checkPasswordComplexity(String password) {
         boolean longEnough = password.length() >= 8;
         boolean hasCapital = false;
         boolean hasNumber = false;
@@ -58,7 +58,7 @@ public class QuickChatApp_Registration {
     }
 
     // Check cell number
-    public boolean checkCellPhoneNumber(String cell) {
+    public boolean checkCellPhoneNumber(String cell) { 
         if (cell.startsWith("+") && cell.length() >= 11) {
             System.out.println("Cell number accepted.");
             return true;
