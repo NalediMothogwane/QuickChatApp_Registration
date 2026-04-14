@@ -4,7 +4,7 @@
 
 package com.mycompany.quickchatapp_registration;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  *
