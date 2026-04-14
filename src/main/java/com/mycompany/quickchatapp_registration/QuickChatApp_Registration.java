@@ -4,13 +4,13 @@
 
 package com.mycompany.quickchatapp_registration;
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 /**
  *
  * @author NALEDI
  */
-public class QuickChatApp_Registration {
+public class QuickChatApp_Registration { 
     // Store user details
     String storedUsername;
     String storedPassword;
