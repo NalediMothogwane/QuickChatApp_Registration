@@ -69,7 +69,7 @@ public class QuickChatApp_Registration {
     }
 
     // Registration
-    public void registerUser() { 
+    public void registerUser() {
         System.out.println("\n--- Create Account ---");
 
         System.out.print("First Name: ");
@@ -98,7 +98,7 @@ public class QuickChatApp_Registration {
     }
 
     // Login
-    public void loginUser() {
+    public void loginUser() { 
         if (storedUsername == null) {
             System.out.println("No account registered yet.");
             return;
