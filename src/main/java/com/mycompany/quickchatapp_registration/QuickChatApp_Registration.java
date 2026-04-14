@@ -32,7 +32,7 @@ public class QuickChatApp_Registration {
     }
 
     // Check password
-    public boolean checkPasswordComplexity(String password) {
+    public boolean checkPasswordComplexity(String password) { 
         boolean longEnough = password.length() >= 8;
         boolean hasCapital = false;
         boolean hasNumber = false;
